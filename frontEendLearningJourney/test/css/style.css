@@ -1,0 +1,201 @@
+.g{
+    height: 250px;
+    width : 250px;
+    background-color:brown;
+    content:"";
+    position:relative;
+    overflow: hidden;
+    transition: 3s;
+}
+
+.g::after{
+    content:""; 
+    height:100%;
+    width:100%;
+    background-color: rgba(109, 19, 19, 0.6);
+    position:absolute;
+    top:0;
+    transition: 3s;
+
+}
+
+.g:hover::after{
+    content:"";
+    top:100%;
+   
+    transition: 3s;
+}
+
+.k{
+    height: 250px;
+    width : 250px;
+    background-color:brown;
+    content:"";
+    position:relative;
+    overflow: hidden;
+    transition: 3s;
+}
+
+.k::after{
+    content:""; 
+    height:100%;
+    width:100%;
+    background-color: rgba(109, 19, 19, 0.6);
+    position:absolute;
+    left:0;
+    transition: 3s;
+
+}
+
+.k:hover::after{
+    content:"";
+    left:100%;
+   
+    transition: 3s;
+}
+.r{
+    height: 50px;
+    width : 50px;
+    background-color:rgb(42, 42, 165);
+    content:"";
+    position:relative;
+    overflow: hidden;
+    transition: 3s;
+}
+
+.r::after{
+    content:""; 
+    height:100%;
+    width:100%;
+    background-color: rgba(19, 88, 109, 0.6);
+    position:absolute;
+    right:0;
+    transition: 3s;
+
+}
+
+.r:hover::after{
+    content:"";
+    right:100%;
+   
+    transition: 3s;
+}
+.red{
+    background: red;
+   
+  
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: 20px;
+    left: 35px;
+    animation: 13s red infinite;
+
+    
+  }
+  
+  .yellow{
+    background: yellow;
+  
+
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+ 
+    position: absolute;
+    top: 145px;
+    left: 35px;
+    animation: 13s yellow infinite;
+    
+  }
+  
+  .green{
+    background: green;
+   
+  
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: 270px;
+    left: 35px;
+    animation: 15s green infinite;
+
+  }
+  
+  @keyframes red{
+    0%{opacity: 1}
+    10%{opacity: 1}
+    25%{opacity: .1}
+    40%{opacity: .1}
+    50%{opacity: .1}
+    60%{opacity: .1}
+    75%{opacity: .1}
+    90%{opacity: 1}
+    100%{opacity: 1}
+  }
+  
+  @keyframes yellow{
+    0%{opacity: .1}
+    10%{opacity: .1}
+    25%{opacity: 1}
+    40%{opacity: 1}
+    50%{opacity: .1}
+    60%{opacity: .1}
+    75%{opacity: 1}
+    90%{opacity: 1}
+    100%{opacity: .1}
+  }
+  
+  @keyframes green{
+    0%{opacity: .1}
+    10%{opacity: .1}
+    25%{opacity: .1}
+    40%{opacity: .1}
+    50%{opacity: 1}
+    60%{opacity: 1}
+    75%{opacity: .1}
+    90%{opacity: .1}
+    100%{opacity: .1}
+   
+  }
+
+
+  .looder{
+    position: relative;
+    top: 400px;
+    left: 35px;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border-color:black;
+    BORDER:4PX solid; 
+   
+    border-left-color: rgb(255, 0, 0);
+    
+    animation: 3s round linear infinite;
+  }
+
+  .looder::after{
+
+    content: "looding ";
+    position: absolute;
+    top:50%;
+    left: 50%;
+    animation: 3s round2 linear infinite
+
+  }
+
+  @keyframes round {
+    
+    
+    100%{transform: rotate(360deg)}
+
+  }
+  @keyframes round2 {
+    
+    
+    100%{transform: rotate(-360deg)}
+
+  }

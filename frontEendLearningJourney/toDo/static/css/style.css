@@ -1,0 +1,70 @@
+/* Global styles */
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    /* Header section styles */
+    header {
+      background-color: #f1f1f1;
+      padding: 20px;
+    }
+
+    /* Navigation bar styles */
+    .logo {
+      float: left;
+      font-size: 24px;
+      font-weight: bold;
+    }
+
+    .menu {
+      float: right;
+    }
+
+    .menu a {
+      margin-left: 10px;
+      text-decoration: none;
+      color: #333;
+    }
+
+    /* Main section styles */
+    main {
+      padding: 20px;
+    }
+
+    /* Home section styles */
+    .home-section {
+      margin-bottom: 20px;
+    }
+
+    /* How to study section styles */
+    .study-section {
+      margin-bottom: 20px;
+    }
+
+    /* Todo section styles */
+    .todo-section {
+      margin-bottom: 20px;
+    }
+
+    /* Day grid styles */
+    .day-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 10px;
+    }
+
+    /* Todo item styles */
+    .todo-item {
+      border: 1px solid #ccc;
+      padding: 10px;
+    }
+
+    .todo-item h3 {
+      margin-top: 0;
+    }
+
+    .todo-item p {
+      margin-bottom: 0;
+    }
